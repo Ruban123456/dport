@@ -1,0 +1,194 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dhanish MK | Cybersecurity & SDE Portfolio</title>
+    <meta name="description" content="Portfolio of Dhanish MK, a passionate Software & Cybersecurity Student.">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Fira+Code:wght@400;500;700&family=Inter:wght@300;400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+    <canvas id="matrix-canvas"></canvas>
+    
+    <!-- Animated Cyborg Robot -->
+    <div id="cyborg-container">
+        <div class="cyborg">
+            <div class="cyborg-head">
+                <div class="cyborg-eye"></div>
+            </div>
+            <div class="cyborg-body"></div>
+            <div class="cyborg-arm right"></div>
+            <div class="cyborg-leg left"></div>
+            <div class="cyborg-leg right"></div>
+        </div>
+    </div>
+    
+    <nav class="navbar glass-panel">
+        <div class="logo">&lt;Dh/&gt;</div>
+        <ul class="nav-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#achievements">Achievements</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <header class="hero" id="home">
+        <div class="hero-content glass-panel">
+            <div class="profile-img-container">
+                <img src="assets/profile.jpg" alt="Dhanish MK Profile" class="profile-img" onerror="this.onerror=null;this.src='https://via.placeholder.com/150/0a192f/00ff88?text=DM';">
+            </div>
+            <h1 class="glitch" data-text="Dhanish MK">Dhanish MK</h1>
+            <h2 class="subtitle">B.Tech Computer Science & Engineering</h2>
+            <div class="terminal-box">
+                <span class="prompt">root@dhanish:~$</span> <span class="typing-text"></span><span class="cursor">_</span>
+            </div>
+            <div class="hero-actions">
+                <a href="assets/cv.pdf" class="btn primary-btn" download="Dhanish_MK_CV.pdf"><i class="fas fa-download"></i> Download CV</a>
+                <a href="#contact" class="btn secondary-btn">Let's Connect</a>
+            </div>
+            <div class="social-icons">
+                <a href="https://www.linkedin.com/in/dhanish-mk" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                <a href="https://github.com/Dhanishhhh" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+                <a href="mailto:myselfdhanish01@gmail.com" aria-label="Email"><i class="fas fa-envelope"></i></a>
+            </div>
+        </div>
+    </header>
+
+    <section id="about" class="section">
+        <h2 class="section-title">&gt; whoami</h2>
+        <div class="about-container glass-panel">
+            <p>Hello! I'm <span class="highlight">Dhanish MK</span>, a dedicated Computer Science and Engineering student at Lovely Professional University, with a keen interest in Cybersecurity, Software Development, and Web Technologies. My goal is to craft secure, innovative, and impactful digital solutions.</p>
+            <p>I thrive on problem-solving, participating in hackathons, and continuously expanding my technical toolkit. I've successfully completed over 280+ hours of dedicated learning on platforms like iamneo, and actively participate in TryHackMe rooms to sharpen my offensive and defensive security concepts.</p>
+            
+            <h3 style="margin-top: 25px; color: var(--text-main); font-family: var(--font-mono);">&gt; cat education.txt</h3>
+            <ul style="list-style-type: none; margin-top: 15px; color: var(--text-muted);">
+                <li style="margin-bottom: 15px;">
+                    <strong style="color: var(--accent);">Lovely Professional University, Punjab</strong><br>
+                    Bachelor of Technology - Computer Science and Engineering (CGPA: 6.3) | Since Aug 2023
+                </li>
+                <li style="margin-bottom: 15px;">
+                    <strong style="color: var(--accent);">Devadhar Govt School, Kerala</strong><br>
+                    Intermediate (Percentage: 90%) | June 2020 - March 2022
+                </li>
+                <li>
+                    <strong style="color: var(--accent);">Devadhar Govt School, Kerala</strong><br>
+                    Matriculation (Percentage: 99%) | June 2019 - March 2020
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <h2 class="section-title">&gt; ls ./skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card glass-panel">
+                <i class="fas fa-code skill-icon"></i>
+                <h3>Languages</h3>
+                <p>C++, Java, JavaScript, C, Python</p>
+            </div>
+            <div class="skill-card glass-panel">
+                <i class="fas fa-laptop-code skill-icon"></i>
+                <h3>Web Configs</h3>
+                <p>HTML, CSS, React, Chrome Extension Dev</p>
+            </div>
+            <div class="skill-card glass-panel">
+                <i class="fas fa-tools skill-icon"></i>
+                <h3>Tools & Platforms</h3>
+                <p>MySQL, RedHat, Kali Linux, Firebase, Git</p>
+            </div>
+            <div class="skill-card glass-panel">
+                <i class="fas fa-brain skill-icon"></i>
+                <h3>Libraries & Soft Skills</h3>
+                <p>Pandas, NumPy, TensorFlow | Problem-Solving, Teamwork, Time Management</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <h2 class="section-title">&gt; cat projects.txt</h2>
+        <div class="projects-grid">
+            <div class="project-card glass-panel" style="flex: 1 1 100%;">
+                <div class="project-content">
+                    <img src="assets/url_checker.png" alt="URL Checker Extension" class="project-img">
+                    <h3 class="project-title">Real-time URL Checker Extension</h3>
+                    <p class="project-desc">Developed a real-time URL Scanner Chrome Extension that detects phishing and malicious websites using the VirusTotal API. Integrated Firebase as the backend database to store scanned URLs and threat results, enabling instant user alerts whenever a malicious site is detected.</p>
+                    <div class="project-tech">
+                        <span>HTML</span>
+                        <span>CSS</span>
+                        <span>JavaScript</span>
+                        <span>Python</span>
+                        <span>React</span>
+                        <span>Firebase</span>
+                    </div>
+                </div>
+            </div>
+            <div class="project-card glass-panel" style="flex: 1 1 100%;">
+                <div class="project-content">
+                    <img src="assets/waste_ai.png" alt="Smart Waste Segregation" class="project-img">
+                    <h3 class="project-title">AI-Based Smart Waste Segregation Sys.</h3>
+                    <p class="project-desc">Automated segregation of waste using Computer Vision and TensorFlow to instantly classify materials (plastic, metal, organic). Maximizes recycling yield and optimizes operational costs through real-time bin monitoring using embedded IoT sensors, mechanics, and camera inputs.</p>
+                    <div class="project-tech">
+                        <span>Python</span>
+                        <span>HTML</span>
+                        <span>C</span>
+                        <span>TensorFlow</span>
+                        <span>IoT</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="achievements" class="section">
+        <h2 class="section-title">&gt; grep -r "achievements" ./docs</h2>
+        <div class="about-container glass-panel">
+            <h3 style="color: var(--text-main); font-family: var(--font-mono); margin-bottom: 20px;">### Achievements & Hackathons</h3>
+            <ul style="list-style-type: none; color: var(--text-muted);">
+                <li style="margin-bottom: 15px;">
+                    <strong style="color: var(--accent);">TryHackMe Rooms</strong><br>
+                    Completed 32 hands-on cybersecurity rooms on TryHackMe, gaining practical experience in offensive and defensive security concepts.
+                </li>
+                <li style="margin-bottom: 15px;">
+                    <strong style="color: var(--accent);">Web Development Hackathon</strong><br>
+                    Successfully completed a 48-hour Web Development Hackathon, delivering a fully functional project under extreme time constraints.
+                </li>
+                <li>
+                    <strong style="color: var(--accent);">Platform Dedication</strong><br>
+                    Completed 4 comprehensive courses totaling 280+ hours on the iamneo platform, strengthening core technical foundations.
+                </li>
+            </ul>
+
+            <h3 style="color: var(--text-main); font-family: var(--font-mono); margin-top: 30px; margin-bottom: 20px;">### Certifications</h3>
+            <ul style="list-style-type: none; color: var(--text-muted);">
+                <li><strong style="color: var(--accent);">Cyber Security Essentials</strong> - LPU (July 2025)</li>
+                <li><strong style="color: var(--accent);">Data Structure and Algorithms</strong> - NeoColab (December 2024)</li>
+                <li><strong style="color: var(--accent);">Software Dev Processes & Methodologies</strong> - Coursera (May 2024)</li>
+                <li><strong style="color: var(--accent);">Cloud Computing</strong> - NPTEL (March 2024)</li>
+                <li><strong style="color: var(--accent);">Responsive Web Design</strong> - freeCodeCamp (December 2023)</li>
+            </ul>
+        </div>
+    </section>
+
+    <footer id="contact" class="footer glass-panel">
+        <h2 class="section-title">&gt; ./contact.sh</h2>
+        <p>I'm constantly exploring new technologies and always open to engaging in exciting projects or security research. Let's connect!</p>
+        <a href="mailto:myselfdhanish01@gmail.com" class="btn primary-btn">myselfdhanish01@gmail.com</a>
+        <a href="tel:+919778702280" class="btn secondary-btn">+91 9778702280</a>
+        <div class="footer-socials">
+            <a href="https://www.linkedin.com/in/dhanish-mk" target="_blank" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+            <a href="https://github.com/Dhanishhhh" target="_blank" aria-label="GitHub"><i class="fab fa-github"></i></a>
+        </div>
+        <p class="copyright">&copy; 2026 Dhanish MK. All Rights Reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
