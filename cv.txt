@@ -1,0 +1,46 @@
+DHANISH MK
+B.Tech Computer Science & Engineering
+Email: myselfdhanish01@gmail.com | Mobile: +91-9778702280
+LinkedIn: https://www.linkedin.com/in/dhanish-mk
+GitHub: https://github.com/Dhanishhhh
+
+SUMMARY
+Dedicated Computer Science and Engineering student with strong foundation in web development, penetration testing, and network security. Problem solver and active participant in hackathons and CTF competitions.
+
+EDUCATION
+Lovely Professional University, Punjab
+Bachelor of Technology - Computer Science and Engineering | CGPA: 6.3 | Since Aug 2023
+
+Devadhar Govt school Kerala
+Intermediate | Percentage: 90% | June 2020 - March 2022
+Matriculation | Percentage: 99% | June 2019 - March 2020
+
+TECHNICAL SKILLS
+Languages: C++, Java, JavaScript, C, Python
+Web Technologies: HTML and CSS
+Tools/Platforms: MySQL, Redhat, Kali linux
+Libraries: Pandas, NumPy
+Soft Skills: Problem-Solving Skills, Teamwork, Time Management, Adaptability
+
+PROJECTS
+Real-time URL Checker Extension (June - July 2025)
+- Developed a real-time URL Scanner that detects phishing and malicious websites using VirusTotal API.
+- Integrated Firebase as the backend database.
+- Implemented HTML, CSS, JavaScript, React, Python.
+
+AI-Based Smart Waste Segregation and Recycling System (March - April 2025)
+- Automated segregation of waste using Computer Vision and TensorFlow.
+- Real-time bin monitoring using IoT sensors.
+- Tech: Python, HTML, C, TensorFlow.
+
+CERTIFICATES
+- Cyber Security Essentials - LPU (July 2025)
+- Data Structure and Algorithms - NeoColab (Dec 2024)
+- Software Development Processes and Methodologies - Coursera (May 2024)
+- Cloud computing - Nptel (March 2024)
+- Responsive Web Design - freeCodeCamp (Dec 2023)
+
+ACHIEVEMENTS
+- TryHackMe Rooms: Completed 32 hands-on cybersecurity rooms.
+- Platform Learning: Completed 4 courses totaling 280+ hours on iamneo.
+- Hackathon: Successfully completed a 48-hour Web Development Hackathon limit.
